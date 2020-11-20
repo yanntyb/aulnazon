@@ -55,6 +55,7 @@ a {
     z-index: 1;
 }
 .menu1 {
+    display: block;
     background-color: #252525;
     font-size: 4rem;
     margin-left: 3rem;
@@ -65,10 +66,7 @@ a {
     color:  #FFFB7D;
 }
 .sousMenu {
-    display: inline-block;
-}
-.menu .sousMenu :not(.titre){
-    display: none;
+    display: block;
 }
 .sousMenu:hover .menu1{
     display: block;
