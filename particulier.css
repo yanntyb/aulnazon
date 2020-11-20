@@ -34,6 +34,15 @@ body {
 
 }
 
+.haut img {
+    display: block;
+    right: 0;
+    position: absolute;
+    width: 20%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
 i {
     position: absolute;
     color: white;
@@ -43,14 +52,17 @@ i {
 }
 
 .presentation {
+    position: absolute;
     display: block;
     margin-left: 10%;
-    padding-top: 5%;
+    top: 0;
     width: 40%;
     color:  #FFFB7D;
-    animation-name: animOpacity;
-    animation-duration: 5s;
+    animation-name: animOpacity, movePresentation;
+    animation-duration: 2s;
+    animation-timing-function: linear;
     font-size: 3.5rem;
+    background-color: black;
 }
 
 .formulaire {
@@ -136,9 +148,9 @@ input {
     background-color: black;
     color: white;
     border: red 1px solid;
+    font-size: 2rem;
 
 }
-
 input:focus {
     outline: red;
 }
@@ -184,6 +196,16 @@ input:focus {
     }
     to {
         height: 50%;
+    }
+
+}
+
+@keyframes movePresentation {
+    from {
+        top: -20%;
+    }
+    to {
+        top: 0;
     }
 
 }
