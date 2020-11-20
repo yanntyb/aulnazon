@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -42,7 +41,6 @@ a {
 .titreFormation:hover{
     color:  #FFFB7D;
 }
-
 .gauche {
     position: absolute;
     top: 0;
@@ -60,8 +58,6 @@ a {
     background-color: #252525;
     font-size: 4rem;
     margin-left: 3rem;
-}
-.menu1 {
     transition: color;
     transition-duration: 1s;
 }
@@ -87,11 +83,41 @@ a {
 }
 .droite img {
     width: 100%;
+    height: 50%;
 }
-
+#logoResponsiv {
+    display: none;
+}
 .droite :nth-child(2) {
     position: absolute;
     left: 0;
     bottom: 0;
 }
-
+@media screen and (max-width: 1200px){
+    .titreFormation {
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 1000px){
+    .gauche {
+        width: 100%;
+    }
+    .droite {
+        display: none;
+    }
+    .cont {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
+    #logoResponsiv {
+        position: absolute;
+        right: 0;
+        display: block;
+        width: 50%;
+    }
+    .titreFormation {
+        font-size: 5rem;
+    }
+}
