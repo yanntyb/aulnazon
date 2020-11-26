@@ -1,28 +1,44 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylePageMenu.css">
     <script src="https://kit.fontawesome.com/78e483bd6f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="formulaire.css">
 </head>
 <body>
-    <div class="cont">
-        <div class="gauche">
-            <div class="menu">
-                <div class="sousMenu">
-                    <a href="particulier.html" class="menu1">Particulier</a>
-                    <a href="pro.html" class="menu1">Commerçant</a>
-                </div>
-            </div>
-            <span class="titreFormation">Solution numérique pour soutenir les commerçants locaux !<br> <br>Formation Développeur Web/Mobile </span>
-        </div>
-        <div class="droite">
-            <img src="https://media.discordapp.net/attachments/764390008911036436/778988992132677652/image002.png" alt="logo1">
-            <img src="https://cdn.discordapp.com/attachments/764390008911036436/778989014324871228/Logo_UP_TO2.png" alt="logo2">
-        </div>
-        <img id="logoResponsiv" src="https://cdn.discordapp.com/attachments/764390008911036436/778989014324871228/Logo_UP_TO2.png" alt="logo2">
+<div class="cont">
+    <div class="haut">
+        <img src="logoUPTO.png" alt="logo1" id="img1">
+        <img src="logoFace.png" alt="logo2" id="img2">
+
+        <p class="presentation">
+            Vous avez besoin d'un solution web pour votre entreprise ? Nous vous proposons de créer un site a votre image !
+        </p>
     </div>
+    <div class="formulaire">
+        <hr id="barre">
+        <h2>NOUS CONTACTER</h2>
+        <form action="#">
+            <input type="text" id="name" placeholder="Nom de l'entreprise">
+            <input type="text" id="email" placeholder="Email">
+            <input type="text" id="numero" placeholder="Numero de portable">
+            <textarea name="Message" id="message" placeholder="Ce que vous attendez de nous"></textarea>
+            <select name="statut" id="statut">
+                <option value="" disabled selected>Statue de votre entreprise</option>
+                <option value="individuelle">Auto entrepreneur</option>
+                <option value="EIRL">EIRL</option>
+                <option value="SARL">SARL</option>
+                <option value="EURL">EURL</option>
+                <option value="SAS">SAS</option>
+                <option value="SASU">SASU</option>
+                <option value="SA">SA</option>
+                <option value="SNC">SNC</option>
+            </select>
+            <input type="text" id="secteur" placeholder="Secteur d'activité">
+            <input type="text" id="ville" placeholder="Ville">
+        </form>
+    </div>
+</div>
 </body>
 </html>

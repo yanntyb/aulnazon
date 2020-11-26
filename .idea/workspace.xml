@@ -21,8 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="d7726e9f-4669-44cc-9e97-ca0d9b6dc963" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formulaire.css" beforeDir="false" afterPath="$PROJECT_DIR$/formulaire.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylePageMenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylePageMenu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/particulier.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylePageMenu.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +38,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -54,7 +57,6 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -74,11 +76,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605795457383</updated>
-      <workItem from="1605795458579" duration="5364000" />
-      <workItem from="1605859834214" duration="1837000" />
-      <workItem from="1605861842482" duration="63000" />
-      <workItem from="1605862623209" duration="9663000" />
-      <workItem from="1605873566090" duration="5015000" />
+      <workItem from="1605795458579" duration="5649000" />
+      <workItem from="1606065940478" duration="630000" />
+      <workItem from="1606387066638" duration="162000" />
+      <workItem from="1606387231917" duration="3911000" />
     </task>
     <servers />
   </component>
