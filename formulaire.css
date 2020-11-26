@@ -76,6 +76,7 @@ body {
     border: 1px solid cyan;
     animation-name: barre;
     animation-duration: 4s;
+    animation-timing-function: linear;
 }
 
 .formulaire {
