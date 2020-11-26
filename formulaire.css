@@ -294,3 +294,85 @@ textarea {
     }
 
 }
+
+@media screen and (max-width: 1240px) {
+    .presentation {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    input {
+        font-size: 1rem;
+    }
+    select {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 900px){
+    #email {
+        position: absolute;
+        left: 10%;
+        margin-top: 20%;
+    }
+    #numero {
+        position: absolute;
+        left: 10%;
+        margin-top: 25%;
+    }
+    #ville {
+        position: absolute;
+        left: 10%;
+        margin-top: 30%;
+    }
+    * {
+        animation-name: none !important;
+    }
+    #message {
+        opacity: 100%;
+        width: 60%;
+    }
+    #button {
+        opacity: 100%;
+    }
+
+}
+
+@media screen and (max-width: 850px){
+    input {
+        height: 4%;
+        left: 0;
+        font-size: 1rem;
+        transform: scale(0.8);
+    }
+    select {
+        transform: scale(0.8);
+    }
+    h2 {
+        display: none;
+    }
+    .presentation {
+        font-size: 1.5rem;
+    }
+    #statut {
+        position: absolute;
+        margin-top: 12%;
+    }
+    #secteur {
+        position: absolute;
+        margin-top: 19%;
+    }
+    #email {
+        position: absolute;
+        margin-top: 26%;
+    }
+    #numero {
+        position: absolute;
+        margin-top: 33%;
+    }
+    #ville {
+        position: absolute;
+        margin-top: 40%;
+    }
+}
