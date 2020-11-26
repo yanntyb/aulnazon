@@ -189,6 +189,18 @@ h2 {
     outline: red;
 }
 
+#button {
+    opacity: 0;
+    position: absolute;
+    width: 100px;
+    left: calc(50% - 50px);
+    bottom: 20px;
+    animation-name: animOpacity;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
 input {
     height: 5%;
     background-color: black;
