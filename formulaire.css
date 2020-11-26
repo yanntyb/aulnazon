@@ -276,11 +276,9 @@ textarea {
 
 @keyframes barre {
     from {
-        left: 50%;
-        width: 0%;
+        width: 0;
     }
     to {
-        left: 0%;
         width: 100%;
     }
 
